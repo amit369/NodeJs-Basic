@@ -20,3 +20,6 @@ console.log(data);
 console.log(" dirname  =>> ", __dirname);
 console.log(" filename  ==>> ", __filename);
 
+var buf = Buffer.from('hello.txt', 'utf-8');
+console.log(buf);
+
