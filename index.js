@@ -14,3 +14,9 @@ let result = arr.filter((item) => {
 console.log(result);
 fs.writeFileSync("hello.txt", "Welcome to Chandigarh");
 
+const data = fs.readFileSync('hello.txt', 'utf-8');
+console.log(data);
+
+console.log(" dirname  =>> ", __dirname);
+console.log(" filename  ==>> ", __filename);
+
