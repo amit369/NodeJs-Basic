@@ -1,5 +1,5 @@
 const app = require('./app');
-
+const fs = require('fs');
 const arr = [2,4,7,1];
 console.log(arr[1]);
 
@@ -12,3 +12,5 @@ let result = arr.filter((item) => {
     return item >=2
 });
 console.log(result);
+fs.writeFileSync("hello.txt", "Welcome to Chandigarh");
+
